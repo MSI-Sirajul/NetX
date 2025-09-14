@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5f5f5"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <LinearLayout
+        android:id="@+id/wifi_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/wifi_bg"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/wifi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="WiFi Usage"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wifi_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download: 0 MB"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/wifi_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload: 0 MB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mobile_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/data_bg"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/mobile_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Mobile Data Usage"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mobile_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download: 0 MB"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mobile_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload: 0 MB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
