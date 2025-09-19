@@ -23,7 +23,7 @@
 <h2 align="center">Preview</h2>
 
 <p align="center">
-  <img src="asset/ui.jpg" alt="NetX Overlay Example" height="330" width="144"/>
+  <img src="asset/layout.jpg" alt="NetX Overlay Example" height="330" width="144"/>
   &nbsp;&nbsp;
   <img src="asset/notification.jpg" alt="NetX Notification Example" height="330" width="144"/>
 </p>
