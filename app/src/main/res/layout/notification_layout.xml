@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#FF2C3E50"
+    android:gravity="center_vertical">
+
+    <!-- Dynamic Network Icon -->
+    <ImageView
+        android:id="@+id/network_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/lte_slow"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Speeds (Download above Upload) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/download_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 KB/s"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/upload_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 KB/s"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Usage Totals -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/wifi_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WiFi: 0 MB"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/data_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data: 0 MB"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

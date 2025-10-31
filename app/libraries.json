@@ -1,0 +1,20 @@
+[
+  {
+    "artifactId": "appcompat-v7",
+    "excludes": [],
+    "groupId": "com.android.support",
+    "versionName": "28.0.0"
+  },
+  {
+    "artifactId": "design",
+    "excludes": [],
+    "groupId": "androidx.design",
+    "versionName": "1.0.2"
+  },
+  {
+    "artifactId": "appcompat",
+    "excludes": [],
+    "groupId": "androidx.appcompat",
+    "versionName": "1.0.2"
+  }
+]
