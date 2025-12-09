@@ -23,9 +23,9 @@
 <h2 align="center">Preview</h2>
 
 <p align="center">
-  <img src="asset/ui.jpg" alt="NetX Overlay Example" height="330" width="144"/>
+  <img src="https://raw.githubusercontent.com/MSI-Sirajul/NetX/refs/heads/main/app/src/main/res/asset/ui1.jpg" alt="NetX Overlay Example" height="330" width="144"/>
   &nbsp;&nbsp;
-  <img src="asset/notification.jpg" alt="NetX Notification Example" height="330" width="144"/>
+  <img src="https://raw.githubusercontent.com/MSI-Sirajul/NetX/refs/heads/main/app/src/main/res/asset/ui2.jpg" alt="NetX Notification Example" height="330" width="144"/>
 </p>
 
 ---
