@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:padding="12dp">
+
+    <!-- Banner background in center -->
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/banner"
+        android:alpha="0.1" />
+
+    <!-- GitHub & Profile Floating Icons -->
+    <LinearLayout
+        android:id="@+id/floating_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/githubBt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/github"
+            android:background="@drawable/btn_bg"
+            android:padding="8dp"
+            android:layout_marginEnd="12dp" />
+
+        <ImageView
+            android:id="@+id/profileBt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            android:background="@drawable/btn_bg"
+            android:padding="8dp" />
+			
+    </LinearLayout>
+	
+</RelativeLayout>

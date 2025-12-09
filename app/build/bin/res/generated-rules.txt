@@ -1,0 +1,6 @@
+# Referenced at /storage/emulated/0/Android/data/com.tyron.code/files/Projects/NetX/app/build/bin/AndroidManifest.xml:69
+-keep class com.android.netx.BootReceiver { <init>(); }
+# Referenced at /storage/emulated/0/Android/data/com.tyron.code/files/Projects/NetX/app/build/bin/AndroidManifest.xml:49
+-keep class com.android.netx.MainActivity { <init>(); }
+# Referenced at /storage/emulated/0/Android/data/com.tyron.code/files/Projects/NetX/app/build/bin/AndroidManifest.xml:61
+-keep class com.android.netx.NetworkMonitorService { <init>(); }

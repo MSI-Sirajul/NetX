@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/app_divider"> <!-- বাটন চাপলে এই কালারের ইফেক্ট হবে -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <!-- বাটনের মেইন ব্যাকগ্রাউন্ড কালার -->
+            <solid android:color="@color/app_surface_variant" />
+            
+            <!-- বাটনটি কতটা গোল হবে (Rounded Corner) -->
+            <corners android:radius="12dp" />
+            
+            <!-- চিকন বর্ডার (অপশনাল, সুন্দর দেখানোর জন্য) -->
+            <stroke
+                android:width="1dp"
+                android:color="@color/app_divider" />
+        </shape>
+    </item>
+
+</ripple>

@@ -1,0 +1,407 @@
+# compiler: R8
+# compiler_version: 3.1.51
+# min_api: 26
+# compiler_hash: engineering
+# pg_map_id: ac8ac31
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+a.MainActivity$$ExternalSyntheticLambda0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.$r8$classId -> a
+    com.android.netx.MainActivity com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.f$0 -> b
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.<init>(com.android.netx.MainActivity):0:0 -> <init>
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.$r8$init$synthetic(com.android.netx.MainActivity):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void com.android.netx.MainActivity.openUrl(java.lang.String):308:308 -> onClick
+    1:1:void com.android.netx.MainActivity.lambda$setupDashboardListeners$10(android.view.View):291 -> onClick
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.onClick$bridge(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+    2:2:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.onClick$bridge(android.view.View):0:0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:3:void com.android.netx.MainActivity.openUrl(java.lang.String):308:308 -> onClick
+    3:3:void com.android.netx.MainActivity.lambda$setupDashboardListeners$9(android.view.View):290 -> onClick
+    3:3:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.onClick$bridge(android.view.View):0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+    4:4:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$3.onClick$bridge(android.view.View):0:0 -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+a.MainActivity$$ExternalSyntheticLambda1 -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$0.$r8$classId -> a
+    com.android.netx.MainActivity com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$0.f$0 -> b
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$0.<init>(com.android.netx.MainActivity):0:0 -> <init>
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$0.$r8$init$synthetic(com.android.netx.MainActivity):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.android.netx.MainActivity$$InternalSyntheticLambda$0$ab3e8a373e6a95bf498ee409f988117c3ef932b3a981a37709dafba7e123f03c$0.onCheckedChanged$bridge(android.widget.CompoundButton,boolean) -> onCheckedChanged
+      # {"id":"com.android.tools.r8.synthesized"}
+a.MainActivity$$ExternalSyntheticLambda2 -> a.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.android.netx.MainActivity com.android.netx.MainActivity$$InternalSyntheticLambda$0$3efa203bce684a79f1a94d3d7ba1f9aa08e75736b35c2ce6911d3bd35da70955$0.f$0 -> a
+    void com.android.netx.MainActivity$$InternalSyntheticLambda$0$3efa203bce684a79f1a94d3d7ba1f9aa08e75736b35c2ce6911d3bd35da70955$0.<init>(com.android.netx.MainActivity) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void com.android.netx.MainActivity.typeText(java.lang.String):166:166 -> run
+    1:1:void com.android.netx.MainActivity.lambda$startIntroAnimations$0():155 -> run
+    1:1:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$3efa203bce684a79f1a94d3d7ba1f9aa08e75736b35c2ce6911d3bd35da70955$0.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    2:2:void com.android.netx.MainActivity.typeText(java.lang.String):169:169 -> run
+    2:2:void com.android.netx.MainActivity.lambda$startIntroAnimations$0():155 -> run
+    2:2:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$3efa203bce684a79f1a94d3d7ba1f9aa08e75736b35c2ce6911d3bd35da70955$0.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:3:void com.android.netx.MainActivity.typeText(java.lang.String):175:175 -> run
+    3:3:void com.android.netx.MainActivity.lambda$startIntroAnimations$0():155 -> run
+    3:3:void com.android.netx.MainActivity$$InternalSyntheticLambda$0$3efa203bce684a79f1a94d3d7ba1f9aa08e75736b35c2ce6911d3bd35da70955$0.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+a.MainActivity$$ExternalSyntheticLambda3 -> a.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.android.netx.MainActivity com.android.netx.MainActivity$$InternalSyntheticLambda$2$36c529d2109f21dacc77c029125601015e15d96704c459dd4ab9945540447bac$0.f$0 -> a
+    java.lang.String com.android.netx.MainActivity$$InternalSyntheticLambda$2$36c529d2109f21dacc77c029125601015e15d96704c459dd4ab9945540447bac$0.f$1 -> b
+    void com.android.netx.MainActivity$$InternalSyntheticLambda$2$36c529d2109f21dacc77c029125601015e15d96704c459dd4ab9945540447bac$0.<init>(com.android.netx.MainActivity,java.lang.String) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.android.netx.MainActivity$$InternalSyntheticLambda$2$36c529d2109f21dacc77c029125601015e15d96704c459dd4ab9945540447bac$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+a.MainActivity$$ExternalSyntheticLambda4 -> a.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.os.Handler com.android.netx.MainActivity$$InternalSyntheticLambda$1$50068b05107470b7a4e15546b6bfc4ba28418fc778f63952820c7f745310dd7b$0.f$2 -> c
+    com.android.netx.MainActivity com.android.netx.MainActivity$$InternalSyntheticLambda$1$50068b05107470b7a4e15546b6bfc4ba28418fc778f63952820c7f745310dd7b$0.f$0 -> a
+    java.lang.String com.android.netx.MainActivity$$InternalSyntheticLambda$1$50068b05107470b7a4e15546b6bfc4ba28418fc778f63952820c7f745310dd7b$0.f$1 -> b
+    void com.android.netx.MainActivity$$InternalSyntheticLambda$1$50068b05107470b7a4e15546b6bfc4ba28418fc778f63952820c7f745310dd7b$0.<init>(com.android.netx.MainActivity,java.lang.String,android.os.Handler) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void com.android.netx.MainActivity.lambda$typeText$2(java.lang.String,android.os.Handler):170:173 -> run
+    1:4:void com.android.netx.MainActivity$$InternalSyntheticLambda$1$50068b05107470b7a4e15546b6bfc4ba28418fc778f63952820c7f745310dd7b$0.run():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.android.netx.BootReceiver -> com.android.netx.BootReceiver:
+    1:1:void <init>():10:10 -> <init>
+    1:2:void onReceive(android.content.Context,android.content.Intent):13:14 -> onReceive
+    3:4:void onReceive(android.content.Context,android.content.Intent):17:18 -> onReceive
+    5:5:void onReceive(android.content.Context,android.content.Intent):21:21 -> onReceive
+    6:6:void onReceive(android.content.Context,android.content.Intent):24:24 -> onReceive
+com.android.netx.MainActivity -> com.android.netx.MainActivity:
+    android.widget.TextView currentDownload -> o
+    android.widget.TextView dataUsage -> n
+    android.widget.TextView currentUpload -> p
+    android.widget.Switch permNotifToggle -> j
+    boolean isAnimationPlayed -> v
+    android.widget.LinearLayout rowNotif -> h
+    android.widget.LinearLayout rowOverlay -> g
+    android.widget.Switch permOverlayToggle -> i
+    android.widget.ImageView animIcon -> d
+    android.widget.Switch autoHideToggle -> r
+    android.widget.Switch disableOverlayToggle -> s
+    android.widget.Switch lockOverlayToggle -> q
+    android.content.BroadcastReceiver updateReceiver -> w
+    android.content.SharedPreferences prefs -> a
+    android.widget.TextView animTitle -> e
+    android.widget.Button btnDone -> k
+    int $r8$clinit -> x
+    android.widget.TextView animDesc -> f
+    android.view.View dashboardLayout -> c
+    android.view.View permissionLayout -> b
+    android.widget.ImageView profileBt -> t
+    android.widget.ImageView githubBt -> u
+    android.widget.TextView wifiUsage -> m
+    android.widget.TextView currentStatus -> l
+    1:1:void <init>():28:28 -> <init>
+    2:2:void <init>():49:49 -> <init>
+    3:3:void <init>():52:52 -> <init>
+    1:2:void lambda$setupPermissionListeners$4(android.view.View):194:195 -> a
+    1:2:void $r8$lambda$LkIt_wx7pdKBqY_9xCu3U_MEYYA(com.android.netx.MainActivity,android.view.View):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:3:void lambda$setupPermissionListeners$4(android.view.View):198:198 -> a
+    3:3:void $r8$lambda$LkIt_wx7pdKBqY_9xCu3U_MEYYA(com.android.netx.MainActivity,android.view.View):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    4:4:void lambda$setupPermissionListeners$4(android.view.View):201:201 -> a
+    4:4:void $r8$lambda$LkIt_wx7pdKBqY_9xCu3U_MEYYA(com.android.netx.MainActivity,android.view.View):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:5:void lambda$setupPermissionListeners$4(android.view.View):204:204 -> a
+    5:5:void $r8$lambda$LkIt_wx7pdKBqY_9xCu3U_MEYYA(com.android.netx.MainActivity,android.view.View):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    6:6:void lambda$setupPermissionListeners$4(android.view.View):208:208 -> a
+    6:6:void $r8$lambda$LkIt_wx7pdKBqY_9xCu3U_MEYYA(com.android.netx.MainActivity,android.view.View):0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void lambda$setupPermissionListeners$3(android.view.View):182:185 -> b
+    1:4:void $r8$lambda$bja4rsBwIVE7FODAWhSZ3MDDwS8(com.android.netx.MainActivity,android.view.View):0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    5:5:void lambda$setupPermissionListeners$3(android.view.View):187:187 -> b
+    5:5:void $r8$lambda$bja4rsBwIVE7FODAWhSZ3MDDwS8(com.android.netx.MainActivity,android.view.View):0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:void lambda$setupPermissionListeners$5(android.view.View):214:216 -> c
+    1:3:void $r8$lambda$doYvGYoKdy3vOedDkywdKEoiGMI(com.android.netx.MainActivity,android.view.View):0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    4:4:void lambda$setupPermissionListeners$5(android.view.View):218:218 -> c
+    4:4:void $r8$lambda$doYvGYoKdy3vOedDkywdKEoiGMI(com.android.netx.MainActivity,android.view.View):0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void lambda$setupDashboardListeners$8(android.widget.CompoundButton,boolean):288:288 -> d
+    1:1:void $r8$lambda$h05WtxfrlPIxUNma4vw3iu74fXg(com.android.netx.MainActivity,android.widget.CompoundButton,boolean):0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void lambda$setupDashboardListeners$7(android.widget.CompoundButton,boolean):287:287 -> e
+    1:1:void $r8$lambda$nvw-v8uuxP7DyD1fdZvgRdkvUQo(com.android.netx.MainActivity,android.widget.CompoundButton,boolean):0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void lambda$typeText$1(java.lang.String):173:173 -> f
+    1:1:void $r8$lambda$uxBAdb6CPFRXbMGCjCscrsY-u0w(com.android.netx.MainActivity,java.lang.String):0 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void lambda$setupDashboardListeners$6(android.widget.CompoundButton,boolean):286:286 -> g
+    1:1:void $r8$lambda$zvL96aFdZkiOX7cMHIjpjx6uh1A(com.android.netx.MainActivity,android.widget.CompoundButton,boolean):0 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:android.widget.TextView access$000(com.android.netx.MainActivity):28:28 -> h
+    1:1:android.widget.TextView access$100(com.android.netx.MainActivity):28:28 -> i
+    1:1:android.widget.TextView access$200(com.android.netx.MainActivity):28:28 -> j
+    1:1:android.widget.TextView access$300(com.android.netx.MainActivity):28:28 -> k
+    1:1:android.widget.TextView access$400(com.android.netx.MainActivity):28:28 -> l
+    1:2:boolean areAllPermissionsGranted():266:267 -> m
+    1:2:void showDashboard():276:277 -> n
+    3:5:void showDashboard():280:282 -> n
+    1:1:void startMonitorService():299:299 -> o
+    2:2:void startMonitorService():301:301 -> o
+    1:3:void onCreate(android.os.Bundle):77:79 -> onCreate
+    4:5:void initViews():94:95 -> onCreate
+    4:5:void onCreate(android.os.Bundle):81 -> onCreate
+    6:13:void initViews():98:105 -> onCreate
+    6:13:void onCreate(android.os.Bundle):81 -> onCreate
+    14:23:void initViews():108:117 -> onCreate
+    14:23:void onCreate(android.os.Bundle):81 -> onCreate
+    24:26:void setupDashboardListeners():286:288 -> onCreate
+    24:26:void initViews():119 -> onCreate
+    24:26:void onCreate(android.os.Bundle):81 -> onCreate
+    27:28:void setupDashboardListeners():290:291 -> onCreate
+    27:28:void initViews():119 -> onCreate
+    27:28:void onCreate(android.os.Bundle):81 -> onCreate
+    29:29:void setupPermissionListeners():181:181 -> onCreate
+    29:29:void initViews():120 -> onCreate
+    29:29:void onCreate(android.os.Bundle):81 -> onCreate
+    30:30:void setupPermissionListeners():192:192 -> onCreate
+    30:30:void initViews():120 -> onCreate
+    30:30:void onCreate(android.os.Bundle):81 -> onCreate
+    31:31:void setupPermissionListeners():213:213 -> onCreate
+    31:31:void initViews():120 -> onCreate
+    31:31:void onCreate(android.os.Bundle):81 -> onCreate
+    32:34:void onCreate(android.os.Bundle):84:86 -> onCreate
+    35:36:void showPermissionScreen():128:129 -> onCreate
+    35:36:void onCreate(android.os.Bundle):88 -> onCreate
+    37:37:void showPermissionScreen():131:131 -> onCreate
+    37:37:void onCreate(android.os.Bundle):88 -> onCreate
+    38:42:void startIntroAnimations():140:144 -> onCreate
+    38:42:void showPermissionScreen():132 -> onCreate
+    38:42:void onCreate(android.os.Bundle):88 -> onCreate
+    43:43:void startIntroAnimations():149:149 -> onCreate
+    43:43:void showPermissionScreen():132 -> onCreate
+    43:43:void onCreate(android.os.Bundle):88 -> onCreate
+    44:44:void startIntroAnimations():152:152 -> onCreate
+    44:44:void showPermissionScreen():132 -> onCreate
+    44:44:void onCreate(android.os.Bundle):88 -> onCreate
+    45:45:void startIntroAnimations():155:155 -> onCreate
+    45:45:void showPermissionScreen():132 -> onCreate
+    45:45:void onCreate(android.os.Bundle):88 -> onCreate
+    46:47:void startIntroAnimations():158:159 -> onCreate
+    46:47:void showPermissionScreen():132 -> onCreate
+    46:47:void onCreate(android.os.Bundle):88 -> onCreate
+    48:48:void startIntroAnimations():162:162 -> onCreate
+    48:48:void showPermissionScreen():132 -> onCreate
+    48:48:void onCreate(android.os.Bundle):88 -> onCreate
+    49:49:void showPermissionScreen():133:133 -> onCreate
+    49:49:void onCreate(android.os.Bundle):88 -> onCreate
+    50:50:void showPermissionScreen():135:135 -> onCreate
+    50:50:void onCreate(android.os.Bundle):88 -> onCreate
+    1:2:void onPause():335:336 -> onPause
+    1:1:void onRequestPermissionsResult(int,java.lang.String[],int[]):227:227 -> onRequestPermissionsResult
+    2:2:void onRequestPermissionsResult(int,java.lang.String[],int[]):230:230 -> onRequestPermissionsResult
+    3:4:void onRequestPermissionsResult(int,java.lang.String[],int[]):232:233 -> onRequestPermissionsResult
+    5:5:void onRequestPermissionsResult(int,java.lang.String[],int[]):236:236 -> onRequestPermissionsResult
+    6:7:void onRequestPermissionsResult(int,java.lang.String[],int[]):239:240 -> onRequestPermissionsResult
+    8:10:void onRequestPermissionsResult(int,java.lang.String[],int[]):242:244 -> onRequestPermissionsResult
+    11:11:void onRequestPermissionsResult(int,java.lang.String[],int[]):246:246 -> onRequestPermissionsResult
+    1:1:void onResume():313:313 -> onResume
+    2:3:void onResume():316:317 -> onResume
+    4:5:void onResume():321:322 -> onResume
+    6:6:void onResume():324:324 -> onResume
+    7:8:void onResume():328:329 -> onResume
+    1:3:void updatePermissionToggles():255:257 -> p
+    4:6:void updatePermissionToggles():260:262 -> p
+com.android.netx.MainActivity$1 -> com.android.netx.a:
+    com.android.netx.MainActivity this$0 -> a
+    1:1:void <init>(com.android.netx.MainActivity):52:52 -> <init>
+    1:4:void onReceive(android.content.Context,android.content.Intent):57:60 -> onReceive
+    5:10:void onReceive(android.content.Context,android.content.Intent):62:67 -> onReceive
+    11:11:void onReceive(android.content.Context,android.content.Intent):69:69 -> onReceive
+com.android.netx.NetworkMonitorService -> com.android.netx.NetworkMonitorService:
+    android.app.NotificationManager notificationManager -> d
+    long lastTx -> j
+    long lastRx -> i
+    long totalData -> l
+    long totalWifi -> k
+    boolean isConnected -> p
+    android.widget.ImageView imgIcon -> w
+    android.widget.TextView tvDownload -> u
+    android.app.Notification$Builder notificationBuilder -> e
+    android.view.WindowManager windowManager -> a
+    android.widget.TextView tvUpload -> v
+    android.widget.RemoteViews notificationLayout -> f
+    boolean isWifi -> q
+    boolean isOverlayLocked -> r
+    boolean isAutoHide -> s
+    boolean isOverlayDisabled -> t
+    android.os.Handler handler -> g
+    android.net.ConnectivityManager$NetworkCallback networkCallback -> o
+    java.lang.Runnable updateRunnable -> h
+    android.content.SharedPreferences prefs -> m
+    android.view.View overlayView -> b
+    android.view.WindowManager$LayoutParams overlayParams -> c
+    android.net.ConnectivityManager connectivityManager -> n
+    1:1:void <init>():34:34 -> <init>
+    2:2:void <init>():51:51 -> <init>
+    3:6:void <init>():54:57 -> <init>
+    7:8:void <init>():63:64 -> <init>
+    9:11:void <init>():67:69 -> <init>
+    1:1:void updateNetworkStats():305:305 -> a
+    1:1:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    2:3:void updateNetworkStats():307:308 -> a
+    2:3:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    4:5:void updateNetworkStats():310:311 -> a
+    4:5:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    6:7:void updateNetworkStats():313:314 -> a
+    6:7:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    8:9:void updateNetworkStats():316:317 -> a
+    8:9:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    10:12:void updateNetworkStats():319:321 -> a
+    10:12:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    13:13:void updateNetworkStats():323:323 -> a
+    13:13:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    14:15:void updateNetworkStats():325:326 -> a
+    14:15:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    16:16:java.lang.String formatSpeed(long):365:365 -> a
+    16:16:void updateNetworkStats():329 -> a
+    16:16:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    17:17:java.lang.String formatSpeed(long):365:365 -> a
+    17:17:void updateNetworkStats():330 -> a
+    17:17:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    18:19:void updateNetworkStats():331:332 -> a
+    18:19:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    20:20:void updateNetworkStats():334:334 -> a
+    20:20:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    21:27:void updateNetworkStats():337:343 -> a
+    21:27:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    28:31:void updateNetworkStats():347:350 -> a
+    28:31:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    32:39:void updateNetworkStats():354:361 -> a
+    32:39:void access$000(com.android.netx.NetworkMonitorService):34 -> a
+    1:1:android.os.Handler access$100(com.android.netx.NetworkMonitorService):34:34 -> b
+    1:1:boolean access$202(com.android.netx.NetworkMonitorService,boolean):34:34 -> c
+    1:1:void updateConnectionType(android.net.Network):150:150 -> d
+    1:1:void access$300(com.android.netx.NetworkMonitorService,android.net.Network):34 -> d
+    2:4:void updateConnectionType(android.net.Network):152:154 -> d
+    2:4:void access$300(com.android.netx.NetworkMonitorService,android.net.Network):34 -> d
+    5:5:void updateConnectionType(android.net.Network):157:157 -> d
+    5:5:void access$300(com.android.netx.NetworkMonitorService,android.net.Network):34 -> d
+    1:1:void access$400(com.android.netx.NetworkMonitorService):34:34 -> e
+    1:1:boolean access$500(com.android.netx.NetworkMonitorService):34:34 -> f
+    1:1:android.view.WindowManager$LayoutParams access$600(com.android.netx.NetworkMonitorService):34:34 -> g
+    1:1:android.view.View access$700(com.android.netx.NetworkMonitorService):34:34 -> h
+    1:1:android.view.WindowManager access$800(com.android.netx.NetworkMonitorService):34:34 -> i
+    1:1:android.content.SharedPreferences access$900(com.android.netx.NetworkMonitorService):34:34 -> j
+    1:1:void createOverlay():186:186 -> k
+    2:3:void createOverlay():188:189 -> k
+    4:6:void createOverlay():191:193 -> k
+    7:7:void createOverlay():199:199 -> k
+    8:11:void createOverlay():208:211 -> k
+    12:14:void createOverlay():213:215 -> k
+    15:15:void createOverlay():217:217 -> k
+    16:16:void createOverlay():262:262 -> k
+    1:1:java.lang.String formatBytes(long):373:373 -> l
+    2:2:java.lang.String formatBytes(long):378:378 -> l
+    3:3:java.lang.String formatBytes(long):382:382 -> l
+    4:4:java.lang.String formatBytes(long):386:386 -> l
+    1:3:void updateOverlayVisibility():267:269 -> m
+    4:5:void updateOverlayVisibility():272:273 -> m
+    6:6:void updateOverlayVisibility():275:275 -> m
+    7:8:void updateOverlayVisibility():278:279 -> m
+    9:9:void updateOverlayVisibility():285:285 -> m
+    10:10:void updateOverlayVisibility():287:287 -> m
+    11:11:void updateOverlayVisibility():289:289 -> m
+    12:12:void updateOverlayVisibility():294:294 -> m
+    13:13:void updateOverlayVisibility():296:296 -> m
+    14:14:void updateOverlayVisibility():298:298 -> m
+    1:5:void onCreate():77:81 -> onCreate
+    6:7:void onCreate():84:85 -> onCreate
+    8:9:void onCreate():87:88 -> onCreate
+    10:10:void onCreate():90:90 -> onCreate
+    11:11:void createNotificationChannel():393:393 -> onCreate
+    11:11:void startForegroundServiceCompat():161 -> onCreate
+    11:11:void onCreate():92 -> onCreate
+    12:13:void createNotificationChannel():395:396 -> onCreate
+    12:13:void startForegroundServiceCompat():161 -> onCreate
+    12:13:void onCreate():92 -> onCreate
+    14:14:void startForegroundServiceCompat():163:163 -> onCreate
+    14:14:void onCreate():92 -> onCreate
+    15:15:void startForegroundServiceCompat():165:165 -> onCreate
+    15:15:void onCreate():92 -> onCreate
+    16:16:void startForegroundServiceCompat():168:168 -> onCreate
+    16:16:void onCreate():92 -> onCreate
+    17:17:void startForegroundServiceCompat():170:170 -> onCreate
+    17:17:void onCreate():92 -> onCreate
+    18:23:void startForegroundServiceCompat():172:177 -> onCreate
+    18:23:void onCreate():92 -> onCreate
+    24:24:void startForegroundServiceCompat():181:181 -> onCreate
+    24:24:void onCreate():92 -> onCreate
+    25:25:void setupNetworkCallback():107:107 -> onCreate
+    25:25:void onCreate():93 -> onCreate
+    26:26:void setupNetworkCallback():109:109 -> onCreate
+    26:26:void onCreate():93 -> onCreate
+    27:27:void setupNetworkCallback():146:146 -> onCreate
+    27:27:void onCreate():93 -> onCreate
+    28:28:void onCreate():96:96 -> onCreate
+    29:29:void onCreate():103:103 -> onCreate
+    1:3:void onDestroy():402:404 -> onDestroy
+    4:5:void onDestroy():406:407 -> onDestroy
+    6:7:void onDestroy():409:410 -> onDestroy
+com.android.netx.NetworkMonitorService$1 -> com.android.netx.b:
+    com.android.netx.NetworkMonitorService this$0 -> b
+    int $r8$classId -> a
+    1:1:void <init>(com.android.netx.NetworkMonitorService):0:0 -> <init>
+    1:1:void $r8$init$synthetic(com.android.netx.NetworkMonitorService):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:2:void run():99:100 -> run
+    1:2:void run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:4:void com.android.netx.NetworkMonitorService$2$2.run():128:129 -> run
+    3:4:void run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.android.netx.NetworkMonitorService$2 -> com.android.netx.d:
+    com.android.netx.NetworkMonitorService this$0 -> a
+    1:1:void <init>(com.android.netx.NetworkMonitorService):109:109 -> <init>
+    1:1:void onAvailable(android.net.Network):113:113 -> onAvailable
+    1:1:void onCapabilitiesChanged(android.net.Network,android.net.NetworkCapabilities):137:137 -> onCapabilitiesChanged
+    1:1:void onLost(android.net.Network):125:125 -> onLost
+com.android.netx.NetworkMonitorService$2$1 -> com.android.netx.c:
+    com.android.netx.NetworkMonitorService$2 this$1 -> c
+    int $r8$classId -> a
+    android.net.Network val$network -> b
+    1:1:void <init>(com.android.netx.NetworkMonitorService$2,android.net.Network):0:0 -> <init>
+    1:1:void $r8$init$synthetic(com.android.netx.NetworkMonitorService$2,android.net.Network):0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:2:void run():116:117 -> run
+    1:2:void run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+    3:3:void com.android.netx.NetworkMonitorService$2$3.run():140:140 -> run
+    3:3:void run$bridge():0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.android.netx.NetworkMonitorService$3 -> com.android.netx.e:
+    float initialTouchY -> d
+    int val$screenHeight -> f
+    float initialTouchX -> c
+    com.android.netx.NetworkMonitorService this$0 -> g
+    int val$screenWidth -> e
+    int initialY -> b
+    int initialX -> a
+    1:1:void <init>(com.android.netx.NetworkMonitorService,int,int):217:217 -> <init>
+    1:1:boolean onTouch(android.view.View,android.view.MotionEvent):223:223 -> onTouch
+    2:2:boolean onTouch(android.view.View,android.view.MotionEvent):225:225 -> onTouch
+    3:4:boolean onTouch(android.view.View,android.view.MotionEvent):235:236 -> onTouch
+    5:5:boolean onTouch(android.view.View,android.view.MotionEvent):241:241 -> onTouch
+    6:6:boolean onTouch(android.view.View,android.view.MotionEvent):245:245 -> onTouch
+    7:8:boolean onTouch(android.view.View,android.view.MotionEvent):247:248 -> onTouch
+    9:9:boolean onTouch(android.view.View,android.view.MotionEvent):250:250 -> onTouch
+    10:11:boolean onTouch(android.view.View,android.view.MotionEvent):254:255 -> onTouch
+    12:15:boolean onTouch(android.view.View,android.view.MotionEvent):227:230 -> onTouch

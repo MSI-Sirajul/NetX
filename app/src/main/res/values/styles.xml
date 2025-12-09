@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. Using Native DeviceDefault -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textColorPrimary">@color/app_text_primary</item>
+        <item name="android:textColorSecondary">@color/app_text_secondary</item>
+    </style>
+    
+    <!-- MD3 Style Text Large (Native implementation) -->
+    <style name="TextTitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+
+    <!-- MD3 Style Text Body -->
+    <style name="TextBodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <!-- MD3 Style Text Value/Number -->
+    <style name="TextValueLarge">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/app_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

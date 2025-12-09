@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.android.netx'
+    compileSdk 34 // এটি Android 14
+
+    defaultConfig {
+        applicationId "com.android.netx"
+        
+        // minSdk কমপক্ষে 26 (Android 8) বা 29 (Android 10) দিন।
+        // 23 বা তার নিচে দিলে গুগল এটিকে "Old Version" মনে করে।
+        minSdk 26 
+        
+        // এটি সবচেয়ে গুরুত্বপূর্ণ। এটি অবশ্যই 34 হতে হবে।
+        targetSdk 34 
+        
+        // ভার্সন কোড ১ বাড়িয়ে দিন যাতে ফোন মনে করে এটি নতুন আপডেট
+        versionCode 2
+        versionName "1.1"
+
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+   
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    // Java 8 বা তার উপরের ভার্সন এনাবল করা জরুরি
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    // ViewBinding ব্যবহার করব যাতে findViewById এর ঝামেলা কমে যায়
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    
+    testImplementation 'junit:junit:4.13.2'
+}

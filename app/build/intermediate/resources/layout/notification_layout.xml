@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <!-- Note: Notification background is usually handled by system, so we keep transparent or generic -->
+
+    <!-- Dynamic Network Icon -->
+    <ImageView
+        android:id="@+id/network_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/lte_slow"
+        android:tint="@color/app_primary" />
+
+    <!-- Speeds (Middle) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/download_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↓ 0 KB/s"
+            android:textColor="@color/app_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/upload_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↑ 0 KB/s"
+            android:textColor="@color/app_text_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Usage Totals (Right Side) -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wifi_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WiFi: 0 MB"
+            android:textColor="@color/app_text_secondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/data_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data: 0 MB"
+            android:textColor="@color/app_text_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

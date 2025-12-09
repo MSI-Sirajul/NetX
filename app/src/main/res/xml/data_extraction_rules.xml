@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    
+    <!-- Google Drive বা Cloud Backup এর নিয়ম -->
+    <cloud-backup>
+        <!-- সমস্ত সেটিংস এবং ডাটা ইউসেজ সেভ থাকবে -->
+        <include domain="sharedpref" path="."/>
+        
+        <!-- টেম্পোরারি ফাইল বাদ যাবে -->
+        <exclude domain="root" path="cache"/>
+    </cloud-backup>
+    
+    <!-- এক ফোন থেকে অন্য ফোনে কেবল/ওয়াইফাই দিয়ে ডাটা নেওয়ার নিয়ম -->
+    <device-transfer>
+        <include domain="sharedpref" path="."/>
+        <exclude domain="root" path="cache"/>
+    </device-transfer>
+    
+</data-extraction-rules>

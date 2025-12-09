@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_status_pill"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="6dp"
+    android:paddingTop="2dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="2dp">
+
+    <!-- Network Icon (Small Size) -->
+    <ImageView
+        android:id="@+id/overlay_icon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/lte_strong"
+        android:tint="@color/app_primary" />
+
+    <!-- Download Speed (Small Text) -->
+    <TextView
+        android:id="@+id/download_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="0.1 KB/s"
+        android:textColor="@color/app_text_primary"
+        android:textSize="9sp" />
+
+    <!-- Separator (Thin line) -->
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="8dp"
+        android:layout_marginEnd="3dp"
+        android:background="@color/app_text_secondary"
+        android:alpha="0.5"/>
+
+    <!-- Upload Speed (Small Text) -->
+    <TextView
+        android:id="@+id/upload_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="0.1 KB/s"
+        android:textColor="@color/app_text_secondary"
+        android:textSize="9sp" />
+
+</LinearLayout>

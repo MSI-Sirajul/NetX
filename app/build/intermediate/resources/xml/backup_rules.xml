@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- আমরা SharedPreferences ব্যাকআপ নিতে চাই -->
+    <include domain="sharedpref" path="." />
+    
+    <!-- ক্যাশ ফাইল ব্যাকআপ নেওয়ার দরকার নেই -->
+    <exclude domain="root" path="cache" />
+    <exclude domain="file" path="cache" />
+</full-backup-content>

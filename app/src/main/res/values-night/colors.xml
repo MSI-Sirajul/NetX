@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Theme Colors (Dark Plate - Night) -->
+    <color name="app_background">#0D1117</color>  <!-- Background -->
+    <color name="app_surface">#161B22</color>     <!-- Panel/Card Background -->
+    <color name="app_surface_variant">#21262D</color> <!-- Button Background -->
+    
+    <color name="app_primary">#58A6FF</color>     <!-- Function/Cursor/Active -->
+    <color name="app_on_primary">#0D1117</color>  <!-- Text on Primary Button -->
+    
+    <color name="app_text_primary">#E6EDF3</color> <!-- Foreground -->
+    <color name="app_text_secondary">#6E7681</color> <!-- Comment/Subtitle -->
+    
+    <color name="app_accent">#D19A66</color>      <!-- Number/Variable -->
+    <color name="app_divider">#30363D</color>     <!-- Divider/Border -->
+    
+    <color name="app_success">#79C0FF</color>     <!-- Enum/Status Good -->
+    <color name="app_error">#FF7B72</color>       <!-- Keyword/Error -->
+
+    <!-- Status Bar Color -->
+    <color name="status_bar_color">#0D1117</color>
+</resources>
