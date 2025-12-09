@@ -1,6 +1,6 @@
 <h1 align="center">NetX - Internet <br>Speed Monitor</h1>
 <p align="center">
-  <img src="asset/icon.png" alt="NetX Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/MSI-Sirajul/NetX/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="NetX Logo" width="150"/>
 </p>
 
 <p align="justify">
